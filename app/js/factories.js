@@ -7,7 +7,8 @@ define(['angular'], function (angular)
 
     return angular.module('myApp.factories', [])
 
-        //Factory Examples:
+        /**
+        Factory Examples:
         .factory(   'ExampleMethod1',
                     function ( $resource )
                     {
@@ -22,6 +23,15 @@ define(['angular'], function (angular)
                     {
 
                         return $resource( VAR1 + '/method/?param1=0&param2=' + VAR2);
+
+                    })
+        */
+
+        .factory(   'GetLocation',
+                    function ( $resource )
+                    {
+
+                        return $resource( 'http://path-to-the-service/' );
 
                     })
 
