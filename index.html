@@ -18,19 +18,50 @@
 	<script src="app/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-	<h1>AngularJS + RequireJS</h1>
-	<ul class="menu">
-		<li><a href="#/view1">view1</a></li>
-		<li><a href="#/view2">view2</a></li>
-	</ul>
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="NavCtrl" ng-hide="!isLoggedIn">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Company Name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" >
+          <ul class="nav navbar-nav">
+            <li ng-class="current_url =='/view1' ? 'active' :''" ><a href="#/view1">View 1</a></li>
+            <li ng-class="current_url =='/view2' ? 'active' :''"><a href="#/view2">View 2</a></li>
+            <li><a href="#/view3">JSON Service Example</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container theme-showcase" role="main">
 
-	<!--[if lt IE 7]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
 
-	<div ng-view></div>
+<br/>
 
-	<div>AngularJS + RequireJS seed app: v<span app-version></span></div>
-	<script data-main="app/js/main" src="app/bower_components/requirejs/require.js"></script>
+
+
+
+
+
+
+
+
+
+
+    </div> <!-- /container -->
+
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ng-view></div>
+    <script data-main="app/js/main" src="app/bower_components/requirejs/require.js"></script>
 </body>
 </html>
