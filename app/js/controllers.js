@@ -8,15 +8,25 @@ define(['angular', 'services'], function (angular)
 	return angular.module('myApp.controllers', ['myApp.services'])
 		// Sample controller where service is being used
 
-		.controller('NavCtrl', ['$scope', '$injector', '$route', '$location', function ($scope, $injector, $route, $location) {
+		.controller('NavCtrl',
+		            	['$scope',
+		            	'$injector',
+		            	'$route',
+		            	'$location',
+		            	function (	$scope,
+		            	          	$injector,
+		            	          	$route,
+		            	          	$location)
+		            	{
 
-			require(['controllers/navctrl'], function(navctrl)
-			{
+										require(['controllers/navctrl'], function(navctrl)
+										{
 
-				$injector.invoke(navctrl, this, {'$scope': $scope});
+											$injector.invoke(navctrl, this, {'$scope': $scope});
 
-			});
-		}])
+										});
+
+									}])
 
 		.controller('MyCtrl1', ['$scope', 'version', function ($scope, version) {
 			$scope.scopedAppVersion = version;
