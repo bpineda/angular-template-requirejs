@@ -80,7 +80,7 @@ Then navigate your browser to `http://localhost:<port>/app/index.html` to see th
 For more information on AngularJS please check out http://angularjs.org/
 
 
-This is just an example of a basic implementation of the [Angular Seed](https://github.com/angular/angular-seed), so you'd probably checking their page directly, but if you wished to contact me:
+This is just an example of a basic implementation of the [Angular Seed](https://github.com/angular/angular-seed), so you'd probably be better off checking their page directly, but if you wish to contact me:
 
 **bernardo.pineda [at] gmail [dot] com**
 
