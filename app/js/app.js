@@ -26,7 +26,8 @@ define([
 																		'myApp.filters',
 																		'myApp.services',
 																		'myApp.directives',
-																		'myApp.controllers'
+																		'myApp.controllers',
+																		'myApp.factories'
 																				])
 								.constant(	'API_HOST',
 								          	'http://www.telize.com')

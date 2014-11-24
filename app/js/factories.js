@@ -31,7 +31,7 @@ define(['angular'], function (angular)
                     function ( $resource )
                     {
 
-                        return $resource( 'http://path-to-the-service/' );
+                        return $resource( 'http://www.telize.com/geoip?callback' );
 
                     })
 
