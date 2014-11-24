@@ -6,6 +6,7 @@ This is a template implementation of [Angular Seed](https://github.com/angular/a
 
 * AngularJS 1.3.3
 * RequireJS 2.1.15
+* NodeJS
 
 
 # angular-seed — the seed for AngularJS apps
@@ -41,8 +42,7 @@ You can pick one of these options:
 * serve this repository with your webserver
 * install node.js and run `node scripts/web-server.js`
 
-Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
-your browser.
+Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in your browser. In my case the node server runs on port 8000 so I point the browser to `http://localhost:8000/index.html`
 
 
 
