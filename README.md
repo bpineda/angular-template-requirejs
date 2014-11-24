@@ -2,7 +2,7 @@ angular-template-requirejs
 ==========================
 # About
 
-This is a template based on [Angular Seed](https://github.com/angular/angular-seed) with bootstrap and examples. 
+This is a template implementation of [Angular Seed](https://github.com/angular/angular-seed) with bootstrap and a few examples (I'm still working on more examples). 
 
 * AngularJS 1.3.3
 * RequireJS 2.1.15
@@ -78,3 +78,10 @@ your browser.
 ## Contact
 
 For more information on AngularJS please check out http://angularjs.org/
+
+
+This is just an example of a basic implementation of the [Angular Seed](https://github.com/angular/angular-seed), so you'd probably checking their page directly, but if you wished to contact me:
+
+**bernardo.pineda [at] gmail [dot] com**
+
+**[@bpineda](twitter.com/bpineda)** on Twitter (disclosure, it's mostrly in Spanish)
