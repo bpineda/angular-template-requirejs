@@ -36,6 +36,7 @@ define(['angular', 'services'], function (angular)
 		            		{
 
 											$scope.scopedAppVersion = version;
+											$scope.title = 'View 1';
 
 										}])
 

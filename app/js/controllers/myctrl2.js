@@ -1,7 +1,8 @@
 define([], function() {
 	return ['$scope', '$http', function($scope, $http) {
 		// You can access the scope of the controller from here
-		$scope.welcomeMessage = 'hey this is myctrl2.js!';
+    $scope.welcomeMessage = 'hey this is myctrl2.js!';
+		$scope.title = 'View 2';
 
 		// because this has happened asynchroneusly we've missed
 		// Angular's initial call to $apply after the controller has been loaded

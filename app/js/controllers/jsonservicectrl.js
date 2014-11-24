@@ -25,7 +25,7 @@ define([], function() {
                                                             });
 
                                         }
-              $scope.welcomeMessage = 'JSON Service Controller';
+              $scope.title = 'JSON Service Controller';
               $scope.callJSONService();
 
               $scope.$apply();
