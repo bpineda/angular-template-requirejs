@@ -84,4 +84,4 @@ This is just an example of a basic implementation of the [Angular Seed](https://
 
 **bernardo.pineda [at] gmail [dot] com**
 
-**[@bpineda](twitter.com/bpineda)** on Twitter (disclosure, it's mostrly in Spanish)
+**[@bpineda](twitter.com/bpineda)** on Twitter (disclosure, it's mostly in Spanish)
