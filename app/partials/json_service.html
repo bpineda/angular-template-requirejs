@@ -1,3 +1,16 @@
 <div class="page-header">
   <h1>{{welcomeMessage}}</h1>
 </div>
+
+<div class="panel panel-success" style="max-width: 400px;">
+  <div class="panel-heading">Location Data</div>
+  <div class="panel-body">
+    <b>Country:</b> {{JSONLocationData.country}}
+    <br/>
+    <b>City:</b> {{JSONLocationData.city}}
+    <br/>
+    <b>Region:</b> {{JSONLocationData.region}}
+    <br/>
+    <b>Coordenates:</b> {{JSONLocationData.longitude}}, {{JSONLocationData.latitude}}
+  </div>
+</div>
